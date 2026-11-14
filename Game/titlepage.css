@@ -1,0 +1,151 @@
+*{
+	text-align: center;
+	color: white;
+	overflow: hidden;
+
+
+}
+
+:root{
+	background-color: black;
+}
+
+
+
+.divide{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 100px ;
+	color: white;
+	margin-top: 80px;
+	
+
+	
+	
+
+
+}
+
+
+
+.buttons{
+
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+	background-color: black;
+	width:400px;
+	border: 5px solid white;
+	padding: 30px;
+	margin: 25px;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	
+
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+
+#gameButton:hover {
+	background-color: white;
+	color: black;
+
+	
+}
+
+
+
+
+@keyframes SlidefromLeft{
+	from{
+		left: -100%;
+	}
+
+	to{
+		left: 33%;
+		transform: translateX(-60%);
+	}
+
+}
+
+.mine{
+	position: relative;
+	animation: SlidefromLeft 2s ease forwards;
+	float: left;
+}
+
+
+
+@keyframes SlidefromRight{
+
+	from{
+		left: 200%;
+	}
+
+	to{
+		left: 0%;
+		
+	}
+}
+
+.sweeper{
+	position: relative;
+	animation: SlidefromRight 2s ease forwards;
+}
+
+
+#buttons{
+	margin-top: 50px;
+}
+
+
+
+@keyframes buttonsLeft{
+
+  from{
+
+    transform: translateX(-100%);
+
+  }
+
+  to{
+  	transform: translateX(0);
+
+  }
+
+
+}
+
+@keyframes buttonsRight{
+
+	from{
+		transform: translateX(100%);
+
+	}
+
+	to{
+
+		transform: translateX(0);
+
+
+	}
+}
+
+
+.button1, .button3{
+
+	left: 0;
+	animation: buttonsRight 1s ease forwards;
+	
+
+}
+
+.button2, .button4{
+
+	right: 0;
+	animation: buttonsLeft 1s ease forwards;
+}

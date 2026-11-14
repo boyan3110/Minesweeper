@@ -1,0 +1,250 @@
+*{
+	color: white;
+	background-color: black;
+  font-family: 'Press Start 2P', cursive;;
+}
+
+#board-container{
+  display: grid;
+  padding: 10px;
+  position: absolute;
+  border: 2px solid white;
+  color: white;
+  row-gap:0px;
+  column-gap: 0px;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  border-collapse: collapse;
+  grid-gap: 0px;
+  width: 33%;
+  height: 58%;
+  
+
+
+
+}
+
+#board-container div{
+	text-align: center;
+	border: 2px solid #202931;
+  border-radius: 2px;
+	width: 60%;
+  height: 60%;
+  row-gap: 0px;
+  column-gap: 0px;
+  margin: 0;
+  border-collapse: collapse;
+  background-color: #8ca1b4;
+  color: white;
+  font-size: 14px;
+  padding: 10px 10px ;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+
+
+
+
+}
+
+
+.cell:hover{
+  background-color: #bfbfbf;
+}
+
+
+
+
+.mines{
+
+  margin-top:90px ;
+   text-align: center;
+  font-size: 30px;
+}
+
+
+.timer{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 650px;
+}
+
+.buttons{
+
+   padding: 5px;
+   width: 12%;
+   margin-top: -33%;
+   margin-left: 10%;
+
+}
+
+
+#sideA{
+  position: relative;
+  width: 100%;
+  height: 50px; 
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+
+.buttonsRight{
+
+  padding: 5px;
+  width: 12%;
+  margin-top: -15.5%;
+  margin-left: 70%;
+  margin-bottom: 10%;
+
+}
+
+#sideB{
+
+  
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+
+
+}
+
+
+#sideA:hover{
+
+    background-color:white;
+    color: black;
+    transform: scale(1.1);
+    transition: all ease 500ms;
+
+}
+
+
+#sideB:hover{
+
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    transition: all ease 500ms;
+
+
+
+
+}
+
+
+.easy-cells{
+  grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
+  
+}
+
+ .medium-cells{
+
+  grid-template-columns: repeat(auto-fit, minmax(42px, 1fr));
+ 
+
+  
+
+}
+
+.hard-cells{
+
+  grid-template-columns: repeat(auto-fit, minmax(33px, 1fr));
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

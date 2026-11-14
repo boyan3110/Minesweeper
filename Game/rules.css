@@ -1,0 +1,144 @@
+*{
+	background-color: black;
+	color: white;
+
+}
+
+h1{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 25px;
+}
+
+h2{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 20px;
+}
+
+.instructions{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	padding: 25px;
+	line-height: 1.5;
+
+}
+
+p{
+
+	font-family: 'Press Start 2P', cursive ;
+	font-size: 10px;
+	line-height: 1.5;
+}
+ 
+
+ table{
+
+ 	width: 100%;
+ 	height: 10%;
+ 	text-align: center;
+ 	border-spacing: 10px;
+
+
+
+
+
+ }
+
+ img{
+ 	
+ 	width: 25%;
+ 	height: 100%;
+ }
+
+
+.captions1, .captions2{
+
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
+}
+
+
+.thumbnails1, .captions1{
+
+	margin-bottom: 10px;
+}
+ 
+
+ .thumbnails2, .captions2{
+
+ 	margin-top: 15px;
+ }
+
+
+.link{
+	font-size: 12px;
+}
+
+
+
+@keyframes slideIn {
+	from{
+
+		transform: translateX(-900px);
+		
+
+	}
+
+	to{
+		transform: translateX(0px);
+
+	}
+
+
+}
+
+.rule1{
+
+	animation: slideIn 1s ease forwards;
+	
+
+
+}
+.rule2{
+	animation: slideIn 2s ease forwards;
+
+	
+}
+.rule3{
+	animation: slideIn 2.5s ease forwards;
+
+
+}
+.rule4{
+	animation: slideIn 2.8s ease forwards;
+
+
+
+}
+
+h1{
+	animation: slideIn 0.5s ease forwards;
+}
+
+
+.thumbnails1, .captions1, .thumbnails2, .captions2{
+
+	animation: slideIn 3s ease forwards;
+}
+
+
+.links{
+
+	margin-top: 50px;
+	font-size: 15px;
+	animation: slideIn 3s ease forwards;
+}
+
+
+h2{
+	animation: slideIn 2s ease forwards;
+}
+
+
+
+
+

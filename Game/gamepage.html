@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Game Page</title>
+	<link rel="stylesheet" type="text/css" href="gamepage.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="mines">
+<p>Flags used</p>
+<p id="flags"></p>
+</div>
+
+<div class="timer">
+	<p>Time</p>
+	<label for="" id="time">0</label>
+</div>
+
+
+<div id = "board-container"></div>
+
+<div class="buttons">
+
+		<a href="gamepage.html">
+		<button id="sideA"class="button1">RESTART</button></a>
+	
+		<a href="">
+		<button id="sideA" class="button2">SETTINGS</button></a>
+	
+			<a href="titlepage.html">
+			<button id="sideA" class="button3">BACK</button></a>
+	
+
+		
+	</div>
+
+<div class="buttonsRight">
+
+		
+		<button id="sideB"class="button4" onclick="easyMode()">EASY</button>
+	
+		
+		<button id="sideB" class="button5" onclick="mediumMode()">MEDIUM</button>
+	
+			
+			<button id="sideB" class="button6" onclick="hardMode()">HARD</button>
+
+			
+
+		
+	</div>
+
+	
+	
+
+	<script src="minesweeper.js"></script>
+</body>
+</html>
